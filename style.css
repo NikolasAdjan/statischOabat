@@ -1,0 +1,109 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+
+ /* .hintergrund {
+    height:100%;
+    width: 100%;
+    background-image: linear-gradient(to right, grey, white);
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+
+.textSection {
+    height:80%;
+    width:100%;
+}
+
+
+
+
+.bg-2 {
+   background:grey;
+}
+
+
+<div class="row">
+        <div class="col-6">
+            <div id="particles-js" class="hintergrund"> 
+              
+            </div>
+        </div>
+        <div class="col-6">
+          <div class="textSection d-flex mt-5 justify-content-center align-items-center flex-wrap">
+            <div class="content mr-3">
+              <img src="logo-large.svg" alt="" class="oabat" > 
+              <p class="lead mt-3 text-center">Wir vernetzen die Fachkräfte von morgen mit Unternehmen aus der Region</p>
+            
+    
+            <form class="mt-5 d-flex justify-content-center flex-wrap bg2">
+                
+                  <input type="text" class="form-control text-center" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">       
+                  <input type="email" class="form-control text-center mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-Mail">
+                <button type="submit" class="btn mt-3 btn-outline-dark ">Submit</button>
+              </form>
+          </div>
+        </div>
+          </div>
+        </div>  */
+
+        .hintergrund {
+            height:100%;
+            width: 100%;
+            background-image: linear-gradient( black, white);
+            background-size:cover;
+            background-repeat:no-repeat;
+         
+        }
+
+       .content {
+           position:absolute;
+           top:25%;
+           text-align:center;
+           width:100%;
+       }
+
+       .logo {
+           width:30%;
+           filter: brightness(1.4);
+           
+       }
+
+       @media screen and (max-width: 992px) {
+        .logo {
+          width:50%;
+        }
+      }
+
+
+       .effect {
+           transition: transform 1s;
+       }
+       .effect:hover {
+           transition: all 1s;
+           transform: scale(1.2); 
+       }
+
+       .font {
+        font-family: 'Roboto', sans-serif;
+        font-size:2rem;
+        color:white;
+       }
+
+
+       @keyframes yourAnimation{
+        0%{
+            opacity: 0.1;
+            }
+        100%{
+            transform: rotate(xx);
+            opacity: 1;
+            }
+    }
+    
+    .logoEffect{
+        animation: yourAnimation 3s 0s ease-in;
+    }
