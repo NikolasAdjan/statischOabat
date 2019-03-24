@@ -227,3 +227,15 @@ margin-bottom: 10%;
         background: linear-gradient(to top right, #fff calc(50% - 1px), #aaa, #fff calc(50% + 1px) )
       }
   
+      
+      .bruh {
+          width:50%;
+      }
+@media screen and (max-width: 800px) {
+    .bruh {
+     
+        width:80%;
+     
+     
+    }
+  }
