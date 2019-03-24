@@ -2,6 +2,7 @@ html,body {
     margin:0;
     padding:0;
     scroll-behavior:smooth;
+    font-family:'roboto';
  
 }
 
@@ -182,5 +183,39 @@ html,body {
     background:linear-gradient(grey, white);
     height:100%;
 }
+
+.ai {
+    height:30%;
+    
+}
   
 
+.icon1 {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    
+}
+
+.bgcontainer {
+    background:linear-gradient(grey, white);
+
+}
+
+
+.responsiveText {
+width:90%;
+margin-left:auto;
+margin-right:auto;
+margin-bottom: 10%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .ai {
+     
+        height:15%;
+     
+     
+    }
+  }
