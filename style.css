@@ -69,16 +69,14 @@ html,body {
 
        .logo {
            width:30%;
-           filter: brightness(1.4);
-           
+     
        }
 
-       @media screen and (max-width: 992px) {
+       @media screen and (max-width: 1000px) {
         .logo {
           width:50%;
         }
       }
-
 
        .effect {
            transition: transform 1s;
@@ -90,9 +88,18 @@ html,body {
 
        .font {
         font-family: 'Roboto', sans-serif;
-        font-size:2rem;
+        font-size:2.5rem;
         color:white;
        }
+
+
+       @media screen and (max-width: 600px) {
+        .font {
+          font-size:1.6em;
+        }
+      }
+
+
 
 
        @keyframes yourAnimation{
@@ -156,6 +163,7 @@ html,body {
      width:100%;
      margin-left:auto;
      margin-right:auto;
+     padding:15px;
      
      
     }
