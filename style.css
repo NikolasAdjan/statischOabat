@@ -1,6 +1,7 @@
 html,body {
     margin:0;
     padding:0;
+ 
 }
 
 
@@ -107,3 +108,70 @@ html,body {
     .logoEffect{
         animation: yourAnimation 3s 0s ease-in;
     }
+
+
+    #exist {
+        
+      
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin-top:100px;
+    }
+
+
+
+    .fontRob {
+        font-family:'Roboto';
+    }
+
+    .textContent {
+        font-size:2rem;
+    }
+
+
+
+  @media screen and (max-width: 1068px) {
+    #exist {
+      display:grid;
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+  .first {
+      padding:50px;
+      margin-left:auto;
+      width:90%;
+      
+  }
+
+  .second {
+      height:150%;
+  }
+
+  
+  @media screen and (max-width: 1068px) {
+    .first {
+     width:90%;
+     margin-left:auto;
+     margin-right:auto;
+     
+     
+    }
+  }
+
+
+.mountain {
+    background-position:left;
+}
+
+
+
+
+/* AB HIER KI SECTION */
+
+#ki {
+    display:grid;
+
+}
