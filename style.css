@@ -219,3 +219,11 @@ margin-bottom: 10%;
      
     }
   }
+
+
+
+    .test1 {
+        width:25%;
+        background: linear-gradient(to top right, #fff calc(50% - 1px), #aaa, #fff calc(50% + 1px) )
+      }
+  
