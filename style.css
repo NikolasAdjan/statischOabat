@@ -1,6 +1,7 @@
 html,body {
     margin:0;
     padding:0;
+    scroll-behavior:smooth;
  
 }
 
@@ -102,19 +103,8 @@ html,body {
 
 
 
-       @keyframes yourAnimation{
-        0%{
-            opacity: 0.1;
-            }
-        100%{
-            transform: rotate(xx);
-            opacity: 1;
-            }
-    }
+
     
-    .logoEffect{
-        animation: yourAnimation 3s 0s ease-in;
-    }
 
 
     #exist {
@@ -180,14 +170,17 @@ html,body {
      font-size:1.5rem;
      
      
-    }
-  }
+     }
+}
 
 
-
-/* AB HIER KI SECTION */
+/* Ab hier KI */
 
 #ki {
     display:grid;
-
+    grid-template-columns: 1fr 1fr 1fr;
+    background:linear-gradient(grey, white);
+    height:100%;
 }
+  
+
