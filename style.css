@@ -7,55 +7,9 @@ html,body {
     
  
 }
+        /* Landing Page */ 
 
-
- /* .hintergrund {
-    height:100%;
-    width: 100%;
-    background-image: linear-gradient(to right, grey, white);
-    background-size:cover;
-    background-repeat:no-repeat;
-
-}
-
-.textSection {
-    height:80%;
-    width:100%;
-}
-
-
-
-
-.bg-2 {
-   background:grey;
-}
-
-
-<div class="row">
-        <div class="col-6">
-            <div id="particles-js" class="hintergrund"> 
-              
-            </div>
-        </div>
-        <div class="col-6">
-          <div class="textSection d-flex mt-5 justify-content-center align-items-center flex-wrap">
-            <div class="content mr-3">
-              <img src="logo-large.svg" alt="" class="oabat" > 
-              <p class="lead mt-3 text-center">Wir vernetzen die Fachkräfte von morgen mit Unternehmen aus der Region</p>
-            
-    
-            <form class="mt-5 d-flex justify-content-center flex-wrap bg2">
-                
-                  <input type="text" class="form-control text-center" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">       
-                  <input type="email" class="form-control text-center mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-Mail">
-                <button type="submit" class="btn mt-3 btn-outline-dark ">Submit</button>
-              </form>
-          </div>
-        </div>
-          </div>
-        </div>  */
-
-        .hintergrund {
+        .bgLandingPage {
             height:100%;
             width: 100%;
             background: linear-gradient( #015962,#4CB0B9);
@@ -66,7 +20,7 @@ html,body {
          
         }
 
-       .content {
+       .contentLandingPage {
            position:absolute;
            top:25%;
            text-align:center;
@@ -74,13 +28,12 @@ html,body {
         
        }
 
-       .logo {
-           width:30%;
-     
+       .oabatLogo {
+           width:30%;  
        }
 
        @media screen and (max-width: 1000px) {
-        .logo {
+        .oabatLogo {
           width:50%;
         }
       }
@@ -105,101 +58,29 @@ html,body {
           font-size:1.6em;
         }
       }
-
-
-
-
-
     
 
-
-    #exist {
-        
-      /*  background: linear-gradient(white,grey);
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        margin-top:100px; */
-    }
-
-
-
-
-
-
-    .fontRob {
-        font-family:'Roboto';
-    }
-
-    .textContent {
-        font-size:2rem;
-        color: #0F6972;
-    }
-
-
-
-  @media screen and (max-width: 1068px) {
-    #exist {
-      display:grid;
-      grid-template-columns: 1fr;
-    }
-  }
-
-
-  .first {
-      padding:50px;
-      margin-left:auto;
-      width:90%;
-      
-  }
-
-  .second {
-      height:150%;
-  }
-
-  
-  @media screen and (max-width: 1068px) {
-    .first {
-     width:100%;
-     margin-left:auto;
-     margin-right:auto;
-     padding:15px;
-     
-     
-    }
-  }
-
-
-.mountain {
-    background-position:left;
-}
-
-
-@media screen and (max-width: 1068px) {
-    .textContent {
-     font-size:1.5rem;
-     
-     
-     }
-}
 
 
 /* Ab hier KI */
 
-#ki {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
 
-    height:100%;
-}
-
-.ai {
+.iconFeatures {
     height:30%;
     
 }
+
+@media screen and (max-width: 1200px) {
+    .iconFeatures {
+     
+        height:15%;
+     
+     
+    }
+  }
   
 
-.icon1 {
+.centerIcon {
     display:flex;
     justify-content:center;
     flex-direction:column;
@@ -207,9 +88,7 @@ html,body {
 }
 
 
-
-
-.responsiveText {
+.iconSubText {
 width:95%;
 margin-left:auto;
 margin-right:auto;
@@ -220,7 +99,7 @@ color:grey;
 }
 
 @media screen and (max-width: 700px) {
-    .responsiveText {
+    .iconSubText {
      
         text-align:start;
         font-size: 1em;
@@ -240,7 +119,7 @@ color:grey;
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .responsiveHeadline {
      
         text-align:start;
@@ -251,29 +130,17 @@ color:grey;
     }
   }
 
-
-@media screen and (max-width: 800px) {
-    .ai {
-     
-        height:15%;
-     
-     
-    }
-  }
-
-
-
     .test1 {
         width:25%;
         background: linear-gradient(to top right, #fff calc(50% - 1px), #aaa, #fff calc(50% + 1px) )
       }
   
       
-      .bruh {
+      .wideMail {
           width:70%;
       }
 @media screen and (max-width: 800px) {
-    .bruh {
+    .wideMail {
      
         width:100%;
      
@@ -311,8 +178,28 @@ color:grey;
 }
 
 
+/* E-Mail SignUp */
+
+      .mailHeadline {
+        font-size:2rem;
+        color: #0F6972;
+    }
 
 
 
+    @media screen and (max-width: 1068px) {
+        .mailHeadline {
+        font-size:1.5rem;
+        
+        
+        }
+    }
 
 
+    @media screen and (max-width: 800px) {
+        .miniFont {
+        font-size:0.6em;
+        
+        
+        }
+    }
